@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 body {
-    background-color: #FCE4EC; /* Soft pastel pink */
+    background-color: #ffb6e0; /* Light pink */
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,10 +12,10 @@ body {
 }
 
 .container {
-    background: #F8BBD0; /* Light pink with better contrast */
+    background: #ff69b4; /* Hot pink */
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
     text-align: center;
     width: 90%;
     max-width: 600px;
@@ -23,61 +23,58 @@ body {
 }
 
 h1 {
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 600;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    color: #fff0f8; /* Soft white-pink */
+    font-size: 26px;
 }
 
 textarea {
-    width: 100%;
-    height: 80px;
-    background: #FFEBEE; /* Softer pink */
-    color: #333;
+    width: calc(100% - 30px);
+    height: 100px;
+    background: #ff99cc; /* Lighter pink */
+    color: white;
     border: none;
-    padding: 12px;
+    padding: 15px;
     font-size: 16px;
-    border-radius: 8px;
+    border-radius: 10px;
     resize: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
     box-sizing: border-box;
 }
 
 button {
-    background: linear-gradient(135deg, #FF80AB, #F06292); /* Soft gradient */
+    background: #ff4da6; /* Vibrant pink */
     color: white;
     border: none;
-    padding: 12px 20px;
-    font-size: 16px;
+    padding: 12px 25px;
+    font-size: 18px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-top: 10px;
-    font-weight: 600;
-    transition: 0.3s;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 button:hover {
-    background: linear-gradient(135deg, #F06292, #EC407A);
+    background: #ff3385; /* Slightly darker pink */
 }
 
 .note {
     margin-top: 10px;
     font-size: 14px;
-    color: #880E4F; /* Darker pink for better contrast */
+    color: #ffe4e1; /* Light pastel pink */
 }
 
+/* Snapchat Section */
 .snapchat {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 15px;
-    font-size: 18px;
-    color: #FFD700; /* Snapchat yellow */
-    font-weight: 600;
+    font-size: 20px;
+    color: #fffc00; /* Snapchat yellow */
 }
 
 .snapchat img {
-    width: 28px;
-    height: 28px;
-    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
