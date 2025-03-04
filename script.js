@@ -1,8 +1,9 @@
-document.getElementById("copyBtn").addEventListener("click", function() {
-    let scriptBox = document.getElementById("scriptBox");
+function copyScript() {
+    const scriptBox = document.getElementById("script-box");
     scriptBox.select();
-    scriptBox.setSelectionRange(0, 99999); // For mobile devices
     document.execCommand("copy");
-
-    alert("Script copied to clipboard!");
-});
+    document.getElementById("copy-message").style.display = "block";
+    setTimeout(() => {
+        document.getElementById("copy-message").style.display = "none";
+    }, 2000);
+}
